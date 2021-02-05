@@ -1,0 +1,14 @@
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background-image: asset-url('mr_cocktail_banner.jpg');
+  background-size: cover;
+  padding: 8px;
+}
+
+.banner-content {
+  h1 {
+    font-family: lora;
+    color: white;
+  }
+}
