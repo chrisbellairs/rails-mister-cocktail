@@ -15,7 +15,9 @@
   <body>
     <div class="navbar-lewagon">
       <div>
+        <%= link_to cocktails_path, class: "logo" do%>
         <h1>Mr Cocktail</h1>
+        <% end %>
       </div>
         <%= link_to new_cocktail_path do%>
           <i class="far fa-plus-square new"></i>
